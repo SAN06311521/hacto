@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+int main(void)
+{ 
+double interval , a;
+int i;
+for(i = 0; i <30; i++)
+{
+ interval = i/10.0;
+ a = abs(sin(interval));
+ printf("sin( %lf ) = %lf \t", interval , a);
+}
+printf("\n+++++++\n");
+return 0;
+}
